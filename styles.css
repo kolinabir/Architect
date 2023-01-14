@@ -35,8 +35,11 @@ header {
     gap: 40px;
 }
 
-.nav-right>li,
-div {
+.nav-right>div {
+    cursor: pointer;
+}
+
+.nav-right>li {
     cursor: pointer;
 }
 
