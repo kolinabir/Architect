@@ -341,26 +341,33 @@ header {
 }
 
 @media screen and (max-width:767px) {
+    .nav {
+        flex-direction: column;
+        justify-content: left;
+        padding-bottom: 0px;
+    }
     .nav-right {
-        display: none;
-        gap: 0;
+        /* display: none; */
+        flex-direction: column;
+        gap: 5px;
     }
     .nav-left {
         font-weight: 700;
         font-size: 20px;
+        margin-left: 40px;
     }
     .nav {
         /* display: flex; */
         /* justify-content: space-around; */
         margin-top: 0px;
-        /* text-align: center;
-         */
+        text-align: left;
         color: #131313;
     }
     .login-icon {
         display: block;
         display: flex;
         gap: 20px;
+        flex-direction: column;
     }
     .login-icon>i {
         width: 100%;
@@ -438,7 +445,7 @@ header {
     }
     .img-leftsec,
     .img-leftsec1 {
-        display: none;
+        /* display: none; */
     }
     .btn22 {
         display: flex;
@@ -651,7 +658,7 @@ header {
         margin: 0px 30px 30px 30px;
     }
     .img-leftsec {
-        display: none;
+        /* display: none; */
     }
     .img-leftsec1 {
         display: block;
